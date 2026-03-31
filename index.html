@@ -11420,7 +11420,7 @@ const CELEBRATION_DATA = {
 
 function showUnifiedCelebration(key, value){
   const d = CELEBRATION_DATA[key]; if(!d) return;
-  const url = 'https://riqora.app/register';
+  const url = 'https://riqora.io/';
   const sym = typeof curSymbol==='function' ? curSymbol() : '$';
 
   // Valor visual contextual
@@ -11578,7 +11578,7 @@ function showUnifiedCelebration(key, value){
 
 function shareCelebration(platform, key, value){
   const d = CELEBRATION_DATA[key]; if(!d) return;
-  const url = 'https://riqora.app/register';
+  const url = 'https://riqora.io/';
   const sym = typeof curSymbol==='function' ? curSymbol() : '$';
 
   // Construir texto contextual
@@ -12019,7 +12019,7 @@ function closeScoreModal(){
 function shareScore(platform){
   const e = curEntity(); if(!e) return;
   const s = calcRiqoraScore(e); if(!s) return;
-  const url = 'https://riqora.app/register';
+  const url = 'https://riqora.io/';
 
   // 10 mensajes únicos por nivel
   const msgs = {
